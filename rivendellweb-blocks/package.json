@@ -4,7 +4,7 @@
 	"private": true,
 	"description": "Gutenberg Examples",
 	"author": "The WordPress Contributors",
-	"license": "GPL-2.0-or-later",
+	"license": "MIT",
 	"keywords": [
 		"WordPress",
 		"editor",
