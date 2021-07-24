@@ -1,0 +1,3 @@
+[submodule "hypernotes"]
+	path = hypernotes
+	url = https://github.com/ellatrix/hypernotes
