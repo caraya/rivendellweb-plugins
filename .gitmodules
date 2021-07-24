@@ -1,3 +1,6 @@
 [submodule "hypernotes"]
 	path = hypernotes
 	url = https://github.com/ellatrix/hypernotes
+[submodule "WordPress-Plugin-Boilerplate"]
+	path = WordPress-Plugin-Boilerplate
+	url = https://github.com/DevinVinson/WordPress-Plugin-Boilerplate
