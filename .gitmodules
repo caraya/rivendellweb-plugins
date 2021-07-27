@@ -4,3 +4,6 @@
 [submodule "WordPress-Plugin-Boilerplate"]
 	path = WordPress-Plugin-Boilerplate
 	url = https://github.com/DevinVinson/WordPress-Plugin-Boilerplate
+[submodule "metabox-template"]
+	path = metabox-template
+	url = https://github.com/themefoundation/custom-meta-box-template
