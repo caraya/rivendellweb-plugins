@@ -1,9 +1,12 @@
 [submodule "hypernotes"]
 	path = hypernotes
-	url = https://github.com/ellatrix/hypernotes
+	url = https://github.com/caraya/hypernotes
 [submodule "WordPress-Plugin-Boilerplate"]
 	path = WordPress-Plugin-Boilerplate
 	url = https://github.com/DevinVinson/WordPress-Plugin-Boilerplate
 [submodule "metabox-template"]
 	path = metabox-template
 	url = https://github.com/themefoundation/custom-meta-box-template
+[submodule "custom-meta-box-template"]
+	path = custom-meta-box-template
+	url = https://github.com/caraya/custom-meta-box-template
