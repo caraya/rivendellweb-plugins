@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "rivendellweb/meta-box-demo",
+	"version": "0.1.0",
+	"title": "Meta Box Demo",
+	"category": "text",
+	"icon": "smiley",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "meta-box-demo",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
