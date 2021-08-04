@@ -16,6 +16,21 @@ if( ! defined( 'ABSPATH') ) {
     exit;
 }
 
+include_once( 'src/compat.php' );
+
+function rivendellweb_register_meta() {
+	register_meta('post', '_rivendellweb_text_metafield', array(
+		'show_in_rest' => true,
+		'type' => 'string',
+		'single' => true,
+		'sanitize_callback' => 'sanitize_text_field',
+		'auth_callback' => function() {
+			  return current_user_can('edit_posts');
+		}
+	));
+}
+add_action('init', 'rivendellweb_register_meta');
+
 function rivendellweb_enqueue_assets() {
 	wp_enqueue_script(
 	  'metabox-sidebar',
@@ -31,19 +46,3 @@ function rivendellweb_enqueue_assets() {
   }
 
 add_action( 'enqueue_block_editor_assets', 'rivendellweb_enqueue_assets' );
-
-
-function rivendellweb_register_meta() {
-	register_meta('post', '_rivendellweb_text_metafield', array(
-		'show_in_rest' => true,
-		'type' => 'string',
-		'single' => true,
-		'sanitize_callback' => 'sanitize_text_field',
-		'auth_callback' => function() {
-		  return current_user_can('edit_posts');
-		}
-	));
-  }
-add_action('init', 'rivendellweb_register_meta');
-
-include_once( 'compat.php' );
