@@ -1,0 +1,23 @@
+{
+  "name": "metabox-sidebar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [],
+  "author": "Carlos Araya <carlos.araya@gmail.com> (https://publishing-project.rivendellweb.net/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@wordpress/scripts": "^17.1.0"
+  },
+  "dependencies": {
+    "@wordpress/components": "^15.0.0",
+    "@wordpress/data": "^6.0.0",
+    "@wordpress/edit-post": "^5.0.0",
+    "@wordpress/i18n": "^4.2.1",
+    "@wordpress/plugins": "^4.0.0"
+  }
+}
